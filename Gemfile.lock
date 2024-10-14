@@ -1,0 +1,63 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.7)
+      public_suffix (>= 2.0.2, < 7.0)
+    baran (0.1.12)
+    byebug (11.1.3)
+    coderay (1.1.3)
+    dotenv (3.1.4)
+    event_stream_parser (1.0.0)
+    faraday (2.12.0)
+      faraday-net_http (>= 2.0, < 3.4)
+      json
+      logger
+    faraday-multipart (1.0.4)
+      multipart-post (~> 2)
+    faraday-net_http (3.3.0)
+      net-http
+    json (2.7.2)
+    json-schema (4.3.1)
+      addressable (>= 2.8)
+    langchainrb (0.17.0)
+      baran (~> 0.1.9)
+      json-schema (~> 4)
+      matrix
+      pragmatic_segmenter (~> 0.3.0)
+      zeitwerk (~> 2.5)
+    logger (1.6.1)
+    matrix (0.4.2)
+    method_source (1.1.0)
+    multipart-post (2.4.1)
+    net-http (0.4.1)
+      uri
+    pragmatic_segmenter (0.3.24)
+    pry (0.14.2)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pry-byebug (3.10.1)
+      byebug (~> 11.0)
+      pry (>= 0.13, < 0.15)
+    public_suffix (6.0.1)
+    ruby-openai (7.1.0)
+      event_stream_parser (>= 0.3.0, < 2.0.0)
+      faraday (>= 1)
+      faraday-multipart (>= 1)
+    uri (0.13.1)
+    zeitwerk (2.6.18)
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  dotenv
+  langchainrb
+  pry-byebug
+  ruby-openai
+
+RUBY VERSION
+   ruby 3.3.4p94
+
+BUNDLED WITH
+   2.5.17
