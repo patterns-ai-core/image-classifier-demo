@@ -1,6 +1,6 @@
-require "langchain"
+# frozen_string_literal: true
 
-class ImageClassifier
+class ImageClassifierTool
   extend Langchain::ToolDefinition
 
     define_function :classify, description: "Classify photo" do
