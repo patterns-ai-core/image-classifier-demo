@@ -1,5 +1,5 @@
 require "langchain"
-require "./image-classifier.rb"
+require "./tools/image-classifier.rb"
 require "bundler/setup"
 Bundler.require
 require "dotenv/load"
